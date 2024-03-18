@@ -10,11 +10,20 @@
 <body>
 <form action="https://func-hisol-test2024031402.azurewebsites.net/api/httptrigger15" method="GET">
   <div>
-    <label name="say">名前を入れてください</label>
-    <input name="say" value="名前を入れてください" />
+    <label>名前を入れてください（GETメソッド）</label>
+    <input name="name" value="名前を入れてください" />
   </div>
 　 <div>
     <button>名前を送信</button>
+  </div>
+</form>
+<form action="https://func-hisol-test2024031402.azurewebsites.net/api/httptrigger15" method="POST">
+  <div>
+    <label>名前を入れてください（POSTメソッド）</label>
+    <input name="name" value="名前を入れてください" />
+  </div>
+　 <div>
+    <button>名前を送信(POST)</button>
   </div>
 </form>
 </body>
